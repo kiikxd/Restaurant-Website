@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restoran Madiun</title>
+    
+    <!-- Font Awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Google Font link -->
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Monoton&display=swap" 
+      rel="stylesheet">
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    
+<!-- HEADER START-->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo"> <img src="./assets/gambar/logo.png" alt=""></a>
+
+        <nav class="navbar" data-navbar>
+            <a href="#home" >home</a>
+            <a href="#about" >tentang kami</a>
+            <a href="#menu">menu</a>
+            <a href="#review" >review</a>
+            <a href="#order" >Order Online</a>
+            <a href="#contact" >contact</a>
+        </nav>
+
+        <div class="header-btn-group">
+          <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+           
+          </button>
+        </div>
+
+        <div class="icons">
+            <i class="fa fa-search" id="search-icon"></i>
+            <a href="login.html" class="fa fa-user"></a>
+        </div>
+      </div>
+
+    </header>
+<!-- HEADER END -->
+
+<!-- SEARCH FORM START -->
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fa fa-search"></label>
+    <i class="fa fa-times" id="close"></i>
+</form>
+<!-- SEARCH FORM END -->
+
+<!-- HOME SECTION START -->
+<section class="home" id="home" style="background-image: url('./assets/gambar/hero-bg.jpg')">
+    <div class="swiper mySwiper home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>menu spesial kami</span>
+                    <h3>Pecel telur</h3>
+                    <p>Menu pecel telur adalah nomor satu favorit di restoran ini.</p>
+                    <a href="https://food.grab.com/id/id/restaurant/nasi-pecel-madiun-barokah-tegal-kertha-delivery/6-CZNDLJWWGVCBTE"
+                     class="btn">Order Now</a>
+                </div>
+                <div class="image">
+                    <img src="./assets/gambar/pecel.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>menu spesial kami</span>
+                    <h3>pecel telur</h3>
+                    <p>Menu pecel telur adalah salah satu favorit di restoran ini.</p>
+                    <a href="https://food.grab.com/id/id/restaurant/nasi-pecel-madiun-barokah-tegal-kertha-delivery/6-CZNDLJWWGVCBTE"
+                     class="btn">Order Now</a>
+                </div>
+                <div class="image">
+                    <img src="./assets/gambar/pecel.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>menu spesial kami</span>
+                    <h3>pecel telur</h3>
+                    <p>Menu pecel telur adalah salah satu favorit di restoran ini.</p>
+                    <a href="https://food.grab.com/id/id/restaurant/nasi-pecel-madiun-barokah-tegal-kertha-delivery/6-CZNDLJWWGVCBTE"
+                     class="btn">Order Now</a>
+                </div>
+                <div class="image">
+                    <img src="./assets/gambar/pecel.png" alt="">
+                </div>
+            </div>
+        
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+<!-- HOME SECTION END -->
+
+<!-- PROMO START -->
+      <section class="section section-divider white promo">
+        <h1 class="sub-headfing">welcome to<span>madiun resto</span></h1>
+        <div class="container">
+
+          <ul class="promo-list has-scrollbar">
+            <li class="promo-item">
+              <div class="promo-card">
+                <p class="card-number">01</p>
+                <h3 class="h3 card-title">makanan tradisonal</h3>
+                <p class="card-text">
+                  membuat makanan tradisional kembali menjadi daya tarik bagi siapapun yang ingin mencoba.
+                </p>
+                <img src="./assets/gambar/pecel.png" width="300" height="300" loading="lazy" alt="Maxican Pizza"
+                  class="w-100 card-banner">
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+                <p class="card-number">02</p>
+                <h3 class="h3 card-title">rasa yang khas</h3>
+                <p class="card-text">
+                  memilikki cita rasa yang khas asli madiun yang tidak dapat dimilikki tempat makan lainnya.
+                </p>
+                <img src="./assets/gambar/pecel.png" width="300" height="300" loading="lazy" alt="Soft Drinks"
+                  class="w-100 card-banner">
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+                <p class="card-number">03</p>
+                <h3 class="h3 card-title">harga terjangkau</h3>
+                <p class="card-text">
+                  harga yang terjangkau membuat siapapun dapat merasakan rasa yang enak dari pecel ini.
+                </p>
+                <img src="./assets/gambar/pecel.png" width="300" height="300" loading="lazy" alt="French Fry"
+                  class="w-100 card-banner">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+<!-- PROMO END -->      
+
+<!-- ABOUT START-->
+<section class="about" id="about">
+  <h3 class="sub-heading">tentang kami</h3>
+  <h1 class="headbing">mengapa memilih kami?</h1>
+    <div class="row">
+        <div class="image">
+            <img src="./assets/gambar/pecel.png" alt="">
+        </div>
+        <div class="content">
+            <h3>makanan terbaik</h3>
+            <p>pecel madiun barokah merupakan tempat makan yang terbentuk perorangan. tempat makan ini sudah 
+              berjalan 4 tahun sejak pertama kali didirikan yaitu pada 14 april 2019. yang Pada awalnya tempat 
+              makan ini hanya berjulan di sekitar rumah sehigga sampai saat ini penjualan sudah di lakukan 
+              dengan aplikasi online dan juga lewat offline.</p>
+            <p>Rumah Makan ini bergerak dibidang mengelolah makanan tradisional yang berasal dari madiun yaitu 
+              nasi pecel. dimana alasan untuk mendirikan rumah makan ini adalah merupakan hasil survey bahwa 
+              masih kurangnya sarana tempat makan terutama yang menyediakan makanan spesifik asli madiun.
+            </p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>via online</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>easy payments</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>fast respon</span>
+                </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+</section>
+<!-- ABOUT END -->
+
+<!-- MENU START -->
+<section class="product" id="menu">
+    <h3 class="sub-heading">menu kami</h3>
+    <h1 class="heading">spesial hari ini</h1>
+
+    <div class="products-grid">
+      <a href="#">
+        <div class="product-card">
+          <div class="img-box">
+            <img src="./assets/gambar/menu.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+            <div class="card-badge red">
+              <ion-icon name="flame"></ion-icon>
+              <p>Hot</p>
+            </div>
+          </div>
+
+          <div class="product-content">
+            <div class="wrapper">
+              <h3 class="product-name">nasi pecel madiun</h3>
+              <p class="product-price">
+                <span class="small">rp</span>18.000
+              </p>
+            </div>
+
+            <p class="product-text">
+              tomatoes, mushrooms, rice noodles, corn, shrimp.
+            </p>
+            <div class="product-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </a>
+      
+      <a href="#">
+      <div class="product-card">
+          <div class="img-box">
+            <img src="./assets/gambar/menu.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+          </div>
+
+          <div class="product-content">
+            <div class="wrapper">
+              <h3 class="product-name">nasi pecel madiun</h3>
+              <p class="product-price">
+                <span class="small">rp</span>16.000
+              </p>
+            </div>
+
+            <p class="product-text">
+              tomatoes, mushrooms, rice noodles, corn, shrimp.
+            </p>
+            <div class="product-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#">
+      <div class="product-card">
+          <div class="img-box">
+            <img src="./assets/gambar/menu.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+          </div>
+
+          <div class="product-content">
+            <div class="wrapper">
+              <h3 class="product-name">nasi pecel madiun</h3>
+              <p class="product-price">
+                <span class="small">rp</span>24.000
+              </p>
+            </div>
+
+            <p class="product-text">
+              tomatoes, mushrooms, rice noodles, corn, shrimp.
+            </p>
+            <div class="product-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#">
+      <div class="product-card">
+          <div class="img-box">
+            <img src="./assets/gambar/menu.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+          </div>
+
+          <div class="product-content">
+            <div class="wrapper">
+              <h3 class="product-name">nasi pecel madiun</h3>
+              <p class="product-price">
+                <span class="small">Rp</span>18.000
+              </p>
+            </div>
+
+            <p class="product-text">
+              tomatoes, mushrooms, rice noodles, corn, shrimp.
+            </p>
+            <div class="product-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </a>
+      
+      <a href="#">
+      <div class="product-card">
+          <div class="img-box">
+            <img src="./assets/gambar/menu.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+          </div>
+
+          <div class="product-content">
+            <div class="wrapper">
+              <h3 class="product-name">nasi pecel madiun</h3>
+              <p class="product-price">
+                <span class="small">rp</span>16.000
+              </p>
+            </div>
+
+            <p class="product-text">
+              tomatoes, mushrooms, rice noodles, corn, shrimp.
+            </p>
+            <div class="product-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </a>
+      
+      <a href="#">
+      <div class="product-card">
+          <div class="img-box">
+            <img src="./assets/gambar/menu.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+          </div>
+
+          <div class="product-content">
+            <div class="wrapper">
+              <h3 class="product-name">nasi pecel madiun</h3>
+              <p class="product-price">
+                <span class="small">rp</span>18.000
+              </p>
+            </div>
+
+            <p class="product-text">
+              tomatoes, mushrooms, rice noodles, corn, shrimp.
+            </p>
+            <div class="product-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+</section>
+
+<!-- MENU END -->
+
+<!-- REVIEW START -->
+
+<section class="review"  id="review">
+    <h3 class="sub-heading">pendapat customer</h3>
+    <h1 class="headbing">yang mereka katakan</h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/gambar/user.png" alt="">
+                    <div class="user-info">
+                        <h3>Deddy Sanjaya</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Rekomendasi nasi pecel enak, bumbu pedesnya mantap, porsi banyak, pas dikantong, lauk
+                  ada ayam,empal,tahu,tempe,telor, dan perkedel
+                </p>
+            </div>
+            
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/gambar/user.png" alt="">
+                    <div class="user-info">
+                        <h3>Nadia Aulia</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Nasi pecel yang enak banget, pas porsinya jadi kenyang recommended, pertahankan bungkus 
+                  daunnya dan juga rasanya mantap, bisa buat langganan.</p>
+            </div>
+            
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/gambar/user.png" alt="">
+                    <div class="user-info">
+                        <h3>Danagiri Cen</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Mantulll nih masakan khas jawa timur, nikmat dan lezat, harga merakyat sangat cocok untuk
+                  kantong pelajar, pelayanan ramah dan cepat.</p>
+            </div>
+            
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/gambar/user.png" alt="">
+                    <div class="user-info">
+                        <h3>Mirah Maharani</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>nasi pecelnya enak banget, tadi belinya 2 bungkus, pas dibuka isinya banyak banget, 
+                  bumbu pecelnya pas dan juga pedas, sayurnya seger, next mau pesen lagi.</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- REVIEW END -->
+
+<!-- ORDER START -->
+
+<section class="order" id="order">
+    <h3 class="sub-heading">order now</h3>
+    <h1 class="heading">gratis & cepat</h1>
+
+    <form action="">
+        <div class="inputbox">
+            <div class="input">
+                <span>your name</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="input">
+                <span>your number</span>
+                <input type="text" placeholder="enter your number">
+            </div>
+        </div>
+        <div class="inputbox">
+            <div class="input">
+                <span>your oder</span>
+                <input type="text" placeholder="enter food name">
+            </div>
+            <div class="input">
+                <span>additional food</span>
+                <input type="text" placeholder="extra with food">
+            </div>
+        </div>
+        <div class="inputbox">
+            <div class="input">
+                <span>how much</span>
+                <input type="number" placeholder="how many order">
+            </div>
+            <div class="input">
+                <span>date and time</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputbox">
+            <div class="input">
+                <span>your address</span>
+                <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>your message</span>
+                <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <a href="https://food.grab.com/id/id/restaurant/nasi-pecel-madiun-barokah-tegal-kertha-delivery/6-CZNDLJWWGVCBTE"
+           class="btn">order now</a>
+    </form>
+</section>
+
+<!-- ORDER END -->
+
+<!-- CONTACT START -->
+
+<section class="contact" id="contact">
+    <h3 class="sub-heading">kontak</h3>
+    <h1 class="headbing">mempunyai beberapa pertanyaan?</h1>
+
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15777.275914250495!2d115.20076124999999!3d-8.661182949999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241bbd9a8645f%3A0x9558e48f144318fe!2sWarung%20Nasi%20Pecel%20Madiun%20BAROKAH!5e0!3m2!1sid!2sid!4v1684762814942!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="">
+            <h1>Hubungi Kami</h1>
+            <div class="input-group">
+                <i data-feather="user"></i>
+                <input type="text"
+                placeholder="nama">
+            </div>
+            <div class="input-group">
+                <i data-feather="mail"></i>
+                <input type="text"
+                placeholder="email">
+            </div>
+            <div class="input-group">
+                <i data-feather="phone"></i>
+                <input type="text"
+                placeholder="no hp">
+            </div>
+            <button type="submit" href="https://www.youtube.com/"
+            class="btn">Kirim Pesan</button>
+        </form>
+    </div>
+</section>
+
+<!-- CONTACT END -->
+
+<!-- FOOTER START -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>madiun resto</h3>
+            <p>Madiun Resto telah berdiri sejak tahun 2019 hingga saat ini. Kami bergerak dibidang mengelolah 
+                makanan daerah khas madiun yang spesifik yaitu Nasi Pecel</p>
+            <div class="socials">
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>jadwal buka</h3>
+            <p>Senin <span>09.00-19.00</span></p>
+            <p>Selasa <span>09.00-19.00</span></p>
+            <p>Rabu <span>09.00-19.00</span></p>
+            <p>Kamis <span>09.00-19.00</span></p>
+            <p>Jumat <span>09.00-19.00</span></p>
+            <p>Sabtu <span>09.00-20.00</span></p>
+            <p>Minggu <span>08.00-20.00</span></p>
+        </div>
+
+        <div class="box">
+            <h3>berita</h3>
+            <p>Dapatkan informasi dan promo terbaru dari kami. </p>
+            <div class="input-group">
+                <input type="text"
+                placeholder="Enter Email Address">
+            </div>
+            <button type="submit">Kirim Pesan</button>
+        </div>
+    </div>
+
+    <div class="credit"> created by <span>Yuki Ilham</span></div>
+
+</section>
+
+<!-- FOOTER END -->
+
+ <!-- BACK TO TOP -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <i data-feather="chevron-up"></i>
+  </a>
+
+
+<!-- LOADER -->
+
+<div class="loader-container">
+  <img src="./assets/gambar/loader 2.gif" alt="">
+</div>
+
+
+
+<!-- Custom js storage -->
+
+<script>
+  feather.replace()
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Custom js file link -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
